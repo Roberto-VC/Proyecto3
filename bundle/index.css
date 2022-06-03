@@ -1,0 +1,693 @@
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/App.scss ***!
+  \******************************************************************************************************************/
+@import url(https:////fonts.googleapis.com/css?family=Pacifico);
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/App.scss (1) ***!
+  \**********************************************************************************************************************/
+p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 100%;
+}
+
+h1 {
+  font-family: "Pacifico", sans-serif;
+}
+
+h2 {
+  font-family: "Pacifico", sans-serif;
+}
+
+.Intro {
+  grid-template-columns: 33% auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  width: auto;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Tecnologias {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto;
+}
+
+.Webpack {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.Tecnologias {
+  display: inline;
+}
+
+.Tecnologias img {
+  width: 125px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 10%;
+}
+
+.Intro {
+  background-color: lightskyblue;
+}
+
+.D-Webpack {
+  display: none;
+  grid-template-columns: 33% auto;
+}
+
+.D-React {
+  display: none;
+  grid-template-columns: 33% auto;
+}
+
+.D-Babel {
+  display: none;
+  grid-template-columns: auto 33%;
+}
+
+.D-Linting {
+  display: none;
+  grid-template-columns: auto 33%;
+}
+
+.D-Jest {
+  display: none;
+  grid-template-columns: 33% auto;
+}
+
+.Webpack-R {
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Webpack-L {
+  background-color: red;
+}
+
+.Babel-L {
+  background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Babel-R {
+  background-color: orange;
+}
+
+.Linter-L {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.React-R {
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.React-L {
+  background-color: darkkhaki;
+}
+
+.Linter-R {
+  background-color: greenyellow;
+}
+
+.Jest-L {
+  background-color: #61dafb;
+}
+
+.Jest-R {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav input {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+}
+
+nav input {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  transition: transform 250ms;
+}
+
+nav input:hover {
+  transform: scale(1.2);
+}
+
+.Ejemplos button {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  transition: transform 250ms;
+}
+
+.Ejemplos button:hover {
+  transform: scale(1.2);
+}
+
+.Ejemplos {
+  background-color: white;
+  padding: 3%;
+  border: 2px solid black;
+  border-color: black;
+  border-radius: 50%;
+}
+
+.Final {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 300px;
+}
+
+.Tecnologias {
+  background-color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .D-Webpack {
+    grid-template-columns: auto;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav input {
+    width: 25%;
+  }
+
+  .D-React {
+    grid-template-columns: auto;
+  }
+
+  .D-Babel {
+    grid-template-columns: auto;
+  }
+
+  .D-Linting {
+    grid-template-columns: auto;
+  }
+
+  .D-Jest {
+    grid-template-columns: auto;
+  }
+
+  .Final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .App-logo {
+    height: 30vmin;
+    width: auto;
+    pointer-events: none;
+  }
+}
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/stateComponents/card.scss ***!
+  \***********************************************************************************************************************************/
+img {
+  max-width: 120%;
+}
+
+.back {
+  max-width: 120%;
+  width: auto;
+}
+
+.card {
+  position: relative;
+  border: blue;
+  border-radius: 1px;
+  width: auto;
+  height: auto;
+}
+
+#Usagi1 {
+  border: 2px solid pink;
+  width: auto;
+}
+
+#Usagi2 {
+  border: 2px solid pink;
+}
+
+#Usagi3 {
+  border: 2px solid pink;
+}
+
+#Ami1 {
+  border: 2px solid skyblue;
+}
+
+#Ami2 {
+  border: 2px solid skyblue;
+}
+
+#Ami3 {
+  border: 2px solid skyblue;
+}
+
+#Rei1 {
+  border: 2px solid #FF5E5E;
+}
+
+#Rei2 {
+  border: 2px solid #FF5E5E;
+}
+
+#Rei3 {
+  border: 2px solid #FF5E5E;
+}
+
+#Makoto1 {
+  border: 2px solid lightgreen;
+}
+
+#Makoto2 {
+  border: 2px solid lightgreen;
+}
+
+#Makoto3 {
+  border: 2px solid lightgreen;
+}
+
+#Minako1 {
+  border: 2px solid yellow;
+}
+
+#Minako2 {
+  border: 2px solid yellow;
+}
+
+#Minako3 {
+  border: 2px solid yellow;
+}
+
+.card .front {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+
+.girada .front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+
+.card .back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+  border: 2px solid #112334;
+}
+
+.girada .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
+@media screen and (max-width: 1250px) {
+  img {
+    max-width: 75%;
+  }
+
+  .front {
+    max-width: 75%;
+    width: auto;
+  }
+
+  .back {
+    max-width: 75%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1110px) {
+  img {
+    max-width: 75%;
+  }
+
+  .front {
+    max-width: 75%;
+    width: auto;
+  }
+
+  .back {
+    max-width: 75%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  img {
+    max-width: 100%;
+  }
+
+  .back {
+    max-width: 100%;
+    width: auto;
+  }
+
+  .front {
+    max-width: 100%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  img {
+    max-width: 110%;
+  }
+
+  #Logo {
+    max-width: 75%;
+    width: auto;
+  }
+
+  .front {
+    max-width: 110%;
+    width: auto;
+  }
+
+  .back {
+    max-width: 110%;
+    width: auto;
+  }
+}
+/*!**************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/stateComponents/shuffle.scss ***!
+  \**************************************************************************************************************************************/
+.card {
+  outline-color: pink;
+  border-color: pink;
+  background-color: white;
+  color: black;
+  margin: auto;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Snell Roundhand", cursive;
+  font-size: 22px;
+}
+
+.Ganar {
+  color: black;
+}
+
+.boton {
+  background-color: pink;
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  font-family: "Snell Roundhand", cursive;
+  border-radius: 50%;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 145px 145px 145px 145px 145px 145px 145px 145px 145px 145px;
+}
+
+@media screen and (max-width: 1500px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 145px 145px 145px 145px 145px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 165px 165px 165px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 145px 145px 145px;
+  }
+}
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Components/stateComponents/Calculator.scss ***!
+  \*****************************************************************************************************************************************/
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/orbitron/v23/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6BoWgz.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.Todo {
+  width: 33%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1250px) {
+  .Todo {
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Todo {
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .Todo {
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Todo {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+.PantallaN {
+  background-color: rgb(36, 255, 131);
+  color: black;
+  text-align: right;
+  border-left: 25px solid;
+  border-bottom: 15px solid;
+  border-right: 25px solid;
+  border-color: black;
+  left: 50%;
+  height: 50px;
+  font-size: 50px;
+  font-family: "Orbitron";
+  display: grid;
+}
+
+.Pantalla {
+  background-color: rgb(36, 255, 131);
+  color: rgb(129, 129, 129);
+  font-family: "Orbitron";
+  border-left: 25px solid;
+  border-top: 15px solid;
+  border-right: 25px solid;
+  border-color: black;
+  text-align: right;
+  left: 50%;
+  height: 50px;
+  display: grid;
+  font-size: 25px;
+  grid: 0px 0px 0px 0px;
+}
+
+.Teclas {
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+  width: 25%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.Teclas > button {
+  width: 100px;
+  height: 75px;
+  font-size: 25px;
+  background-color: white;
+}
+
+.Teclas > button:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+#Zero {
+  grid-column: 1/3;
+  grid-row: 5;
+  width: 200px;
+}
+
+#Plus {
+  background-color: rgb(255, 200, 0);
+}
+
+#Minus {
+  background-color: rgb(255, 200, 0);
+}
+
+#Times {
+  background-color: rgb(255, 200, 0);
+}
+
+#Divide {
+  background-color: rgb(255, 200, 0);
+}
+
+#Equal {
+  background-color: rgb(255, 200, 0);
+}
+
+#Reset {
+  background-color: darkorange;
+}
+
+#Negative {
+  background-color: darkorange;
+}
+
+#Module {
+  background-color: darkorange;
+}
+
+#Plus:hover {
+  background-color: rgba(255, 200, 0, 0.659);
+}
+
+#Minus:hover {
+  background-color: rgba(255, 200, 0, 0.659);
+}
+
+#Times:hover {
+  background-color: rgba(255, 200, 0, 0.659);
+}
+
+#Divide:hover {
+  background-color: rgba(255, 200, 0, 0.659);
+}
+
+#Equal:hover {
+  background-color: rgba(255, 200, 0, 0.659);
+}
+
+#Reset:hover {
+  background-color: rgba(255, 140, 0, 0.858);
+}
+
+#Negative:hover {
+  background-color: rgba(255, 140, 0, 0.858);
+}
+
+#Module:hover {
+  background-color: rgba(255, 140, 0, 0.858);
+}
+
+.Todo {
+  background-color: gray;
+  z-index: 1;
+}
+
+#Fondo {
+  background-color: gray;
+  z-index: -1;
+  width: 450px;
+  border-color: black;
+}
