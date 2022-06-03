@@ -1,0 +1,276 @@
+@import url('https:////fonts.googleapis.com/css?family=Pacifico');
+ 
+
+p { font-family: "Comic Sans MS", "Comic Sans", cursive;
+font-size: 100%;}
+
+h1{ font-family: 'Pacifico', sans-serif;
+  ;}
+
+h2{ font-family: 'Pacifico', sans-serif;
+  ;}
+
+
+.Intro{
+  grid-template-columns: 33% auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  width: auto;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Tecnologias{
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto;
+
+}
+
+.Webpack {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.Tecnologias{
+  display: inline;
+}
+
+.Tecnologias img{
+  width: 125px;
+  height: auto;
+}
+
+nav{
+  display: flex;flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input{
+  width: 10%;
+}
+.Intro{
+  background-color: lightskyblue;
+}
+
+.D-Webpack{
+  display: none;
+  grid-template-columns: 33% auto;  
+}
+.D-React{
+  display: none;
+  grid-template-columns: 33% auto;
+}
+
+.D-Babel{
+  display: none;
+  grid-template-columns: auto 33%;
+}
+
+.D-Linting{
+  display: none;
+  grid-template-columns: auto 33%;
+}
+
+.D-Jest{
+  display: none;
+  grid-template-columns: 33% auto;
+}
+
+.Webpack-R{
+  background-color: lightcoral;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Webpack-L{
+  background-color: red;
+}
+
+.Babel-L{
+  background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Babel-R{
+  background-color: orange;
+}
+.Linter-L{
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.React-R{
+  background-color: lightyellow;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.React-L{
+  background-color:darkkhaki;
+}
+
+.Linter-R{
+  background-color: greenyellow;
+}
+
+.Jest-L{
+  background-color: #61dafb;
+}
+
+.Jest-R{
+  background-color: skyblue;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+nav input{
+
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+}
+
+
+nav input{
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  transition: transform 250ms;
+}
+
+nav input:hover{
+  transform: scale(1.2);
+
+}
+
+
+
+.Ejemplos button{
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  transition: transform 250ms;
+}
+
+.Ejemplos button:hover{
+  transform: scale(1.2);
+
+}
+
+.Ejemplos{
+  background-color: white;
+  padding: 3%;
+  border: 2px solid black;
+    border-color: black;
+    border-radius: 50%;
+}
+
+.Final{
+  display:flex; flex-direction:row;
+  justify-content: center;
+  gap: 300px
+
+}
+
+.Tecnologias{
+  background-color: black;
+}
+
+@media screen and (max-width:1000px) {
+  .D-Webpack{
+    grid-template-columns: auto;
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  nav input{
+    width: 25%;
+    
+  }
+  .D-React{
+    grid-template-columns: auto;
+  }
+  
+  .D-Babel{
+    grid-template-columns: auto;
+  }
+  
+  .D-Linting{
+    grid-template-columns: auto;
+  }
+  
+  .D-Jest{
+    grid-template-columns: auto;
+  }
+
+  .Final{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  
+  }
+  .App-logo {
+    height: 30vmin;
+    width: auto;
+    pointer-events: none;
+  }
+  
+}
