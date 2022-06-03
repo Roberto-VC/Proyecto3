@@ -63,12 +63,16 @@ function App() {
   return (
     <div className="App">
       <div className="Intro">
-        <h1>Portafolio Personal</h1>
+        <h1>Portafolio Personal: Roberto Vallecillos Chinchilla</h1>
         <h2>Proyecto Final</h2>
         <p>
           Durante el Semeste, se vieron diferentes tecnologías
           <br />
-          Sobre Sistemas y Tecnologías Web
+          Sobre Sistemas y Tecnologías Web. <br/> 
+          <br/>
+          Y ahora que he aprendido esta tecnoloígas, <br/>
+          puedo enseñar si estoy al alcanze para un trabajo serio de servicios web! <br/>
+          ¡Abajo estan todas las tecnologías que conozco, más páginas en que he trabajado! <br/>
         </p>
       </div>
       <div className="Tecnologias">
